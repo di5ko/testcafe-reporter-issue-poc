@@ -1,0 +1,9 @@
+# Node.js packages
+node_modules/
+
+# Debugging and aftifacts
+[Dd]ebug/
+[Ss]creenshots/
+
+# IDE
+.idea/

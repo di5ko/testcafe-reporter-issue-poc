@@ -1,0 +1,25 @@
+{
+  "name": "testcafe-reporter-issue-poc",
+  "version": "0.1.0",
+  "description": "POC for (spec) reporter issue using t.report({}) and having a onBeforeWriteHook set",
+  "private": true,
+  "standard": {
+    "globals": [
+      "t",
+      "fixture",
+      "test"
+    ]
+  },
+  "scripts": {
+    "testcafe": "testcafe",
+    "test": "node src/run-tests.js",
+    "test-chromium": "node src/run-tests.js chromium:headless",
+    "test-ff": "node src/run-tests.js firefox:headless"
+  },
+  "bugs": {
+    "url": "https://github.com/DevExpress/testcafe/issues"
+  },
+  "devDependencies": {
+    "testcafe": "*"
+  }
+}
